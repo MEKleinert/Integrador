@@ -737,6 +737,12 @@ h1 {
   background-color: var(--main-color);
 }
 
+@media (max-width: 1024px) {
+  .header .navbar a {
+    margin: 0 1.6rem;
+  }
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;

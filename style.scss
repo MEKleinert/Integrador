@@ -595,7 +595,16 @@ h1 {
   background-color: var(--main-color);
 }
 
+
+
 // Media queries
+@media (max-width: 1024px) {
+  .header .navbar a {
+    margin: 0 1.6rem;
+  }
+}
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -670,16 +679,6 @@ h1 {
       }
     }
   }
-
-  // .boosters .cajaContenedora .caja.tercero{
-  //   position: relative;
-  //   left: 21rem;
-  // }
-
-  // .testimonios .cajaContenedora .caja.tercero{
-  //   position: relative;
-  //   left: 21rem;
-  // }
 
   #busqueda-btn,
   #cart-btn,
